@@ -1,0 +1,60 @@
+# ============================================
+# Messages
+# ============================================
+message:
+  # Prefix message
+  prefix: "&8[&2Trident Launcher&8] "
+  # Reload message
+  reload: "&aReloaded"
+  # No permission message, showed up for "trident.reload" permission
+  no-permission: "&cYou don't have permission"
+
+# ============================================
+# Spawn a particle when the player uses the trident
+# ============================================
+particle:
+  # Enable launch particle
+  enabled: true
+  # Check this link for the available particle list
+  # https://jd.papermc.io/paper/1.20.4/org/bukkit/Particle.html
+  # Some of them may break the plugin, be careful.
+  type: TOTEM
+  # Set the particle amount
+  # Keep it low for better performance.
+  amount: 2
+  # Set the particle speed
+  speed: 0.1
+
+# ============================================
+# Play a sound when the player uses the trident
+# ============================================
+sound:
+  # Enable launch sound
+  enabled: true
+  # Check this link for an available sound list
+  # https://jd.papermc.io/paper/1.20.4/org/bukkit/Sound.html
+  type: ITEM_TRIDENT_RIPTIDE_3
+  # Set sound volume
+  volume: 1.0
+  # Set sound pitch
+  pitch: 1.0
+
+# ============================================
+# Set which hand can use the trident launch
+# ============================================
+toggle-hand:
+  # Enable main hand
+  main-hand: true
+  # Enable offhand
+  off-hand: true
+
+# ============================================
+# Trident launcher usage settings
+# ============================================
+trident:
+  # Multiply the launch speed
+  launch-speed: 2.0
+  # Toggle if the player needs riptide enchantment to use the trident launcher
+  need-riptide: true
+  # Toggle if the player needs "trident.launch" permission to use the trident launcher
+  need-permission: false

@@ -1,0 +1,17 @@
+name: TridentLauncher
+version: '${version}'
+main: me.squarefactory.TridentLauncher
+api-version: '1.20'
+prefix: TridentLauncher
+authors: [SquareEngine]
+description: Launches the player when they right-click while holding trident, a similar effect to riptide enchantment.
+commands:
+  reload:
+    description: "Reload the config.yml file"
+    usage: "/<command>"
+permissions:
+  trident.launch:
+    description: "Permission to launch while holding a trident"
+  trident.reload:
+    description: "Permission to reload the config.yml file"
+default-permission: op
